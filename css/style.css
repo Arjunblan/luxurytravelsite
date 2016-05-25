@@ -44,9 +44,9 @@
 	background: #0074cc !important;
 	font-size: 16px !important;
 	padding: 10px 15px !important;
-	text-shadow: none;
+	text-shadow: none !important;
 }
 
 .cta-detail img {
-	
+	margin-left: 10px;
 }
