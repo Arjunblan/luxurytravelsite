@@ -251,7 +251,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		function load(dest) {
 			$('#content > *').hide();
 			if (dest != "") {
-				$('#content-loader').show();
+				$('#content-loader').hide();
 				setTimeout(function(){
 					$('#content-loader').fadeOut('fast', function() {
 							$('#content-' + dest).fadeIn();
